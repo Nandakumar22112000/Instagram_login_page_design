@@ -1,0 +1,162 @@
+*{
+    font-family:sans-serif;
+}
+#container{
+    border: 4px solid violet;
+    border-radius: 8px;
+    background-color: rgb(210, 214, 193);
+    height: 650px;
+    width: 800px;
+    margin-right: 350px;
+    margin-left: 360px;
+    background-image: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #c13584, #e1306C, #fd1d1d);
+}
+#frame{
+    border: 0px solid white;
+    height: 415px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: white;
+}
+#instagram-text{
+    padding: 30px 80px 5px 80px;
+    width: 130px;
+    height: 40px;
+}
+input{
+    width: 70%;
+    height: 30px;
+    margin: 4px 45px;
+}
+#login-btn{
+    width: 70%;
+    height: 30px;
+    margin: 4px 45px;
+    margin-bottom:17px;
+    background-color: rgb(1, 125, 250);
+    border: none;
+    font-weight: bold;
+    padding: 3px 20px 3px 20px;
+    color: white;
+    border-radius: 2px;
+}
+#or{
+    font-size: 17px;
+    font-weight: 100;
+    position: relative;
+    background-color: #fff;
+    margin: 100px;
+    margin-left: 136px;
+}
+#fb-div{
+    display: flex;
+    align-items: center;  
+    margin-top: 7px;
+    margin-left: 73px;  
+}
+#fb-div img{
+    height: 17px;
+    width: 17px;
+    margin-right: 4px;
+}
+#fb-div a{
+    text-decoration: none;
+    color: rgb(181, 10, 249);
+}
+#forget-pass-div{
+    text-decoration: none;
+    padding-left: 141px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+#forget-pass-div a{
+    text-decoration: none;
+    color: rgb(0, 136, 178);
+}
+hr{
+    margin-top: 50px;
+    color: rgb(210, 214, 193);
+    height: 5px;
+    background-image: linear-gradient(45deg, #5851DB, #833AB4, #c13584);
+    width: 100%;
+    border: none;
+}
+#signup{
+    align-items: center;
+    text-align: center;
+}
+#signup a{
+    text-decoration: none;
+    color: rgb(0, 136, 178);
+}
+#gettheapp{
+    text-align: center;
+    color: white;
+}
+.gettheapp-link1{
+    margin-left: 275px;
+    border: none;
+    background-color: black;
+    border-radius: 3px;
+    width: 125px; 
+    padding: 1px; 
+    float: left;  
+}
+.gettheapp-link1 .gp{
+    color: white;
+    display: flex;
+}
+.gettheapp-link1 img{
+    height: 25px;
+    width: 25px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 10px;
+}
+.gettheapp-link1 .gp #getiton{
+    font-size: 9px;
+}
+.gettheapp-link1 .gp p{
+    display: contents;
+    padding: 10px
+}
+
+.gettheapp-link2{
+    margin-right: 275px;
+    border: none;
+    background-color: black;
+    border-radius: 3px;
+    width: 110px; 
+    padding: 1px;  
+    float: right; 
+}
+.gettheapp-link2 .ms{
+    color: white;
+    display: flex;
+}
+.gettheapp-link2 img{
+    height: 25px;
+    width: 25px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 10px;
+}
+.gettheapp-link2 .ms #getitfrom{
+    font-size: 9px;
+}
+.gettheapp-link2 .ms p{
+    display: contents;
+    padding: 10px
+}
+.footer-section{
+    align-items: center;
+    text-align: center;
+}
+.footer-section a{
+    text-decoration: none;
+    color: white;
+    font-size: 11;
+    margin-left: 10px;
+}
